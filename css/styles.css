@@ -40,3 +40,27 @@ body {
     border-radius: 50%;
     background-color: #da4747;
 }
+.hour,
+.secund,
+.minute {
+    width: 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    transform-origin: bottom;
+    z-index: -1;
+}
+.hour {
+    height: 25%;
+    background-color: #da4747;
+}
+.minute {
+    height: 30%;
+    background-color: #cdb30c;
+}
+.secund {
+    height: 40%;
+    background-color: #799351;
+    transform-origin: 50% 85%;
+}
