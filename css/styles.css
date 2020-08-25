@@ -14,3 +14,18 @@ body {
     align-items: center;
     background-color: #cccccc;
 }
+.analog-clock {
+    width: 40vw;
+    height: 40vw;
+    background-image: url("../img/clock_face.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 -20px 20px rgba(0, 0, 0, 0.05),
+      inset 0 -20px 20px rgba(0, 0, 0, 0.05),
+      0 -20px 20px rgba(0, 0, 0, 0.05),
+      inset 0 -20px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    border: 8px solid #ccc;
+    position: relative;
+}
